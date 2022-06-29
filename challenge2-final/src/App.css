@@ -1,0 +1,61 @@
+.App {
+  text-align: center;
+}
+
+
+
+.main {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.input{
+  border:0;
+  outline: none;
+  padding: 5px 8px;
+  border-radius:10px;
+}
+
+.input:focus{
+  border: 3px solid rgb(44, 75, 201);
+}
+
+.btn{
+  margin-left: 10px;
+  border-radius: 10px;
+  padding: 8px 18px;
+  background-color:rgb(44, 75, 201);
+  color: #fff;
+  cursor: pointer;
+  transition: all .2s ease-in;
+}
+
+.btn:hover{
+  background-color:rgb(98, 121, 214);
+}
+
+.btn:active{
+  transform:scale(0.96);
+}
+
+.error{
+  width: 80%;
+  margin: 0 auto;
+  color: red;
+  text-align: center;
+}
+
+.list{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.robot{
+  cursor: pointer;
+}
