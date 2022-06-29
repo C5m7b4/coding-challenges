@@ -1,0 +1,38 @@
+
+.user{
+  width: 75%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid black;
+  border-radius: 10px;
+  box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.username{
+  text-align: left;  
+  font-size:1.2rem;
+  font-weight: bold;
+}
+
+.status{
+  min-height: 30px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.active{
+    background-color: limegreen;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+}
+
+.inactive{
+  background-color: red;
+  border-radius: 50%;
+  height: 30px;
+  width: 30px;
+}
