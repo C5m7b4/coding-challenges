@@ -1,7 +1,8 @@
 import React from 'react';
+import UserList from './components/UserList';
 import './App.css';
 
-const ContextConfig = React.createContext();
+export const ContextConfig = React.createContext();
 
 const intialConfig = {
   users: [
@@ -18,6 +19,7 @@ function App() {
     <ContextConfig.Provider value={intialConfig}>
       <div className="App">
         <h2>Challenge 3</h2>
+        <UserList />
       </div>
     </ContextConfig.Provider>
   );
